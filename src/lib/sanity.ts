@@ -1,10 +1,10 @@
-import { createClient } from "next-sanity";
-import imageUrlBuilder from "@sanity/image-url";
+import { createClient } from 'next-sanity';
+import imageUrlBuilder from '@sanity/image-url';
 
 export const client = createClient({
-  projectId: "pz9ehg2k",
-  dataset: "production",
-  apiVersion: "2022-03-25",
+  projectId: 'w9smdjq6',
+  dataset: 'production',
+  apiVersion: '2022-03-07',
   useCdn: true,
 });
 
